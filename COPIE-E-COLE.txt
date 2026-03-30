@@ -1,0 +1,84 @@
+═══════════════════════════════════════════════════════════
+  📋 COPIE E COLE ESTES COMANDOS 📋
+═══════════════════════════════════════════════════════════
+
+🪟 SE VOCÊ USA WINDOWS:
+───────────────────────────────────────────────────────────
+
+1. Aperte: Windows + R
+2. Digite: cmd
+3. Aperte Enter
+
+4. Agora copie e cole ESTA LINHA (mude o caminho!):
+   
+   cd C:\Users\SeuNome\Desktop\clube-do-minhoca
+
+   ⚠️ ATENÇÃO: Troque "C:\Users\SeuNome\Desktop\clube-do-minhoca"
+              pelo caminho REAL da sua pasta!
+
+5. Aperte Enter
+
+6. Copie e cole ESTA LINHA:
+
+   npm install
+
+7. Aperte Enter e AGUARDE (demora alguns minutos)
+
+8. Quando terminar, copie e cole ESTA LINHA:
+
+   npm run build
+
+9. Aperte Enter e AGUARDE
+
+10. ✅ PRONTO! Copie e cole para abrir a pasta:
+
+   start dist
+
+
+🍎 SE VOCÊ USA MAC:
+───────────────────────────────────────────────────────────
+
+1. Aperte: Cmd + Espaço
+2. Digite: Terminal
+3. Aperte Enter
+
+4. Copie e cole ESTA LINHA (mude o caminho!):
+   
+   cd /Users/SeuNome/Desktop/clube-do-minhoca
+
+   ⚠️ ATENÇÃO: Troque pelo caminho REAL da sua pasta!
+
+5. Aperte Enter
+
+6. Copie e cole ESTA LINHA:
+
+   npm install
+
+7. Aperte Enter e AGUARDE
+
+8. Copie e cole ESTA LINHA:
+
+   npm run build
+
+9. Aperte Enter e AGUARDE
+
+10. ✅ PRONTO! Copie e cole para abrir a pasta:
+
+   open dist
+
+
+═══════════════════════════════════════════════════════════
+
+💡 DICA PARA PEGAR O CAMINHO DA PASTA:
+
+WINDOWS:
+→ Abra a pasta no Windows Explorer
+→ Clique na barra de endereço no topo
+→ Copie o caminho completo
+→ Use no comando: cd [caminho copiado]
+
+MAC:
+→ Arraste a pasta para dentro do Terminal
+→ O caminho aparecerá automaticamente!
+
+═══════════════════════════════════════════════════════════

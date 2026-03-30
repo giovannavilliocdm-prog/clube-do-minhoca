@@ -1,0 +1,126 @@
+═══════════════════════════════════════════════════════════
+  🎭 CLUBE DO MINHOCA - GUIA RÁPIDO DE DEPLOY 🎭
+═══════════════════════════════════════════════════════════
+
+📋 PASSO 1: INSTALAR NODE.JS
+───────────────────────────────────────────────────────────
+1. Acesse: https://nodejs.org
+2. Baixe a versão LTS (recomendada)
+3. Instale normalmente (Next, Next, Finish)
+4. Reinicie o computador se necessário
+
+
+📦 PASSO 2: FAZER O BUILD
+───────────────────────────────────────────────────────────
+
+🪟 WINDOWS:
+   → Dê duplo clique no arquivo: build.bat
+   → Aguarde o processo terminar
+   → Uma pasta 'dist' será criada automaticamente
+
+🍎 MAC / 🐧 LINUX:
+   → Abra o Terminal
+   → Digite: chmod +x build.sh
+   → Digite: ./build.sh
+   → Aguarde o processo terminar
+
+
+🚀 PASSO 3: FAZER DEPLOY NA NETLIFY
+───────────────────────────────────────────────────────────
+1. Acesse: https://app.netlify.com/drop
+2. Crie uma conta grátis (ou faça login)
+3. ARRASTE A PASTA 'dist' (somente ela!) para a área de drop
+4. Aguarde o upload (1-2 minutos)
+5. ✅ Seu site estará no ar!
+
+
+🌐 PASSO 4: CONECTAR SEU DOMÍNIO DO REGISTRO.BR
+───────────────────────────────────────────────────────────
+
+Na Netlify:
+-----------
+1. Clique no site que foi criado
+2. Vá em: Domain Settings
+3. Clique em: Add custom domain
+4. Digite seu domínio (ex: clubedominhoca.com.br)
+5. Anote os DNS que aparecerem
+
+No Registro.br:
+---------------
+1. Acesse: https://registro.br
+2. Faça login
+3. Clique no seu domínio
+4. Vá em: Editar Zona
+5. Adicione os registros DNS da Netlify:
+
+   Tipo: A
+   Nome: @
+   Valor: [IP fornecido pela Netlify]
+
+   Tipo: CNAME
+   Nome: www
+   Valor: [seu-site].netlify.app
+
+6. Salve as alterações
+7. Aguarde de 10 minutos a 48 horas (propagação DNS)
+
+
+✅ PASSO 5: VERIFICAR SE ESTÁ FUNCIONANDO
+───────────────────────────────────────────────────────────
+□ Site carrega corretamente
+□ Imagens aparecem
+□ Carrossel de shows funciona
+□ Links do Sympla abrem
+□ Formulário de contato envia (teste!)
+□ Domínio customizado funciona
+□ HTTPS ativado (cadeado verde no navegador)
+
+
+📧 CONFIGURAR NOTIFICAÇÕES DO FORMULÁRIO
+───────────────────────────────────────────────────────────
+1. No painel da Netlify, vá em: Forms
+2. Clique em: Form notifications
+3. Adicione seu email para receber mensagens
+4. Teste enviando um formulário
+
+
+🔄 ATUALIZAR O SITE NO FUTURO
+───────────────────────────────────────────────────────────
+1. Faça as alterações nos arquivos
+2. Execute o build.bat (ou build.sh) novamente
+3. Arraste a NOVA pasta 'dist' para o Netlify
+4. Pronto! Site atualizado instantaneamente
+
+
+⚠️ PROBLEMAS COMUNS
+───────────────────────────────────────────────────────────
+
+❌ "npm não é reconhecido como comando"
+   → Você precisa instalar o Node.js primeiro
+
+❌ Imagens não aparecem no site
+   → Verifique se fez o build corretamente
+   → Certifique-se de arrastar a pasta 'dist' completa
+
+❌ Formulário não envia
+   → O formulário só funciona APÓS deploy na Netlify
+   → Não funciona localmente
+
+❌ Domínio não funciona
+   → Aguarde mais tempo (DNS demora para propagar)
+   → Verifique se configurou os DNS corretamente no Registro.br
+
+❌ Site demora para carregar
+   → Verifique sua conexão de internet
+   → Limpe o cache do navegador (Ctrl + F5)
+
+
+📞 SUPORTE
+───────────────────────────────────────────────────────────
+Documentação Netlify: https://docs.netlify.com
+Documentação Registro.br: https://registro.br/ajuda
+
+
+═══════════════════════════════════════════════════════════
+  🎉 BOA SORTE COM O CLUBE DO MINHOCA! 🎉
+═══════════════════════════════════════════════════════════

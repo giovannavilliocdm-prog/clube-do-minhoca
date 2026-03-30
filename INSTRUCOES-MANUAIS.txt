@@ -1,0 +1,141 @@
+═══════════════════════════════════════════════════════════
+  🎭 INSTRUÇÕES MANUAIS - PASSO A PASSO 🎭
+═══════════════════════════════════════════════════════════
+
+🪟 PARA WINDOWS:
+═══════════════════════════════════════════════════════════
+
+1️⃣ ABRIR O PROMPT DE COMANDO:
+   → Aperte as teclas: Windows + R
+   → Digite: cmd
+   → Aperte Enter
+
+2️⃣ NAVEGAR ATÉ A PASTA DO PROJETO:
+   → Digite: cd C:\caminho\para\sua\pasta\clube-do-minhoca
+   → Exemplo: cd C:\Users\SeuNome\Desktop\clube-do-minhoca
+   → Aperte Enter
+
+   💡 DICA: Você pode arrastar a pasta para o cmd para pegar o caminho!
+
+3️⃣ VERIFICAR SE TEM NODE.JS INSTALADO:
+   → Digite: node -v
+   → Aperte Enter
+   
+   Se aparecer algo como "v18.x.x" = ✅ TEM NODE.JS
+   Se der erro = ❌ PRECISA INSTALAR (veja abaixo)
+
+4️⃣ INSTALAR AS DEPENDÊNCIAS:
+   → Digite: npm install
+   → Aperte Enter
+   → Aguarde (pode demorar 2-5 minutos)
+
+5️⃣ FAZER O BUILD:
+   → Digite: npm run build
+   → Aperte Enter
+   → Aguarde (1-2 minutos)
+   
+   ✅ PRONTO! A pasta 'dist' foi criada!
+
+6️⃣ ABRIR A PASTA DIST:
+   → Digite: start dist
+   → Aperte Enter
+
+
+🍎 PARA MAC:
+═══════════════════════════════════════════════════════════
+
+1️⃣ ABRIR O TERMINAL:
+   → Cmd + Espaço
+   → Digite: Terminal
+   → Aperte Enter
+
+2️⃣ NAVEGAR ATÉ A PASTA DO PROJETO:
+   → Digite: cd /caminho/para/sua/pasta/clube-do-minhoca
+   → Aperte Enter
+   
+   💡 DICA: Arraste a pasta para o Terminal para pegar o caminho!
+
+3️⃣ VERIFICAR SE TEM NODE.JS INSTALADO:
+   → Digite: node -v
+   → Aperte Enter
+
+4️⃣ INSTALAR AS DEPENDÊNCIAS:
+   → Digite: npm install
+   → Aperte Enter
+   → Aguarde (2-5 minutos)
+
+5️⃣ FAZER O BUILD:
+   → Digite: npm run build
+   → Aperte Enter
+   → Aguarde (1-2 minutos)
+
+6️⃣ ABRIR A PASTA DIST:
+   → Digite: open dist
+   → Aperte Enter
+
+
+❌ SE NÃO TIVER NODE.JS INSTALADO:
+═══════════════════════════════════════════════════════════
+
+1. Acesse: https://nodejs.org
+2. Clique em: Download Node.js (LTS)
+3. Instale o arquivo baixado
+4. Reinicie o computador
+5. Volte ao passo 1️⃣ acima
+
+
+🚀 DEPOIS DO BUILD - DEPLOY:
+═══════════════════════════════════════════════════════════
+
+1. Acesse: https://app.netlify.com/drop
+2. Crie uma conta (ou faça login)
+3. ARRASTE A PASTA 'dist' (aquela que foi criada)
+4. Aguarde o upload
+5. ✅ SEU SITE ESTÁ NO AR!
+
+
+📍 ONDE ESTÁ A PASTA DIST?
+═══════════════════════════════════════════════════════════
+
+A pasta 'dist' estará dentro da pasta do projeto:
+
+clube-do-minhoca/
+  ├── dist/           ← ESTA AQUI! Arraste ESTA pasta
+  ├── src/
+  ├── node_modules/
+  └── package.json
+
+
+⚠️ ERROS COMUNS:
+═══════════════════════════════════════════════════════════
+
+❌ "node não é reconhecido"
+   → Você precisa instalar o Node.js
+   → Link: https://nodejs.org
+
+❌ "npm não é reconhecido"
+   → Você precisa instalar o Node.js
+   → Link: https://nodejs.org
+
+❌ "Erro ao instalar dependências"
+   → Verifique sua conexão com a internet
+   → Tente novamente: npm install
+
+❌ "Pasta dist não foi criada"
+   → Veja se deu algum erro no terminal
+   → Tente: npm run build novamente
+
+❌ "Permissão negada" (Mac/Linux)
+   → Digite: sudo npm install
+   → Digite sua senha do Mac
+
+
+💡 PRECISA DE AJUDA?
+═══════════════════════════════════════════════════════════
+
+Me envie uma foto/print do erro que aparece no terminal!
+
+
+═══════════════════════════════════════════════════════════
+  🎉 SUCESSO NO DEPLOY! 🎉
+═══════════════════════════════════════════════════════════

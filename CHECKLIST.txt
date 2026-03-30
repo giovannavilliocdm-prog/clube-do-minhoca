@@ -1,0 +1,90 @@
+═══════════════════════════════════════════════════════════
+  ✅ CHECKLIST - CLUBE DO MINHOCA ✅
+═══════════════════════════════════════════════════════════
+
+
+📦 PREPARAÇÃO:
+───────────────────────────────────────────────────────────
+□ Node.js instalado? (teste: abra cmd e digite "node -v")
+□ Pasta do projeto extraída?
+□ Sabe o caminho da pasta? (ex: C:\Users\Nome\Desktop\...)
+
+
+🛠️ BUILD (CONSTRUIR O SITE):
+───────────────────────────────────────────────────────────
+□ Abri o terminal/cmd
+□ Naveguei até a pasta (cd caminho/da/pasta)
+□ Rodei: npm install
+□ Aguardei terminar (alguns minutos)
+□ Rodei: npm run build
+□ Aguardei terminar
+□ Pasta 'dist' foi criada
+
+
+🚀 DEPLOY (COLOCAR NO AR):
+───────────────────────────────────────────────────────────
+□ Acessei: https://app.netlify.com/drop
+□ Criei conta / fiz login
+□ Arrastei a pasta 'dist' (SÓ ela!)
+□ Aguardei upload terminar
+□ Site está no ar!
+□ Testei o link temporário
+
+
+🌐 DOMÍNIO CUSTOMIZADO:
+───────────────────────────────────────────────────────────
+□ Cliquei em "Domain Settings" na Netlify
+□ Cliquei em "Add custom domain"
+□ Digitei meu domínio (ex: clubedominhoca.com.br)
+□ Anotei os DNS fornecidos pela Netlify
+□ Acessei Registro.br
+□ Fui em "Editar Zona" do meu domínio
+□ Adicionei registro A (apontando para IP da Netlify)
+□ Adicionei registro CNAME (www → site.netlify.app)
+□ Salvei as alterações
+□ Aguardei propagação DNS (10 min - 48h)
+□ Domínio funcionando!
+
+
+✅ TESTES FINAIS:
+───────────────────────────────────────────────────────────
+□ Site carrega
+□ Imagem de fundo aparece
+□ Logo aparece no header
+□ Menu funciona
+□ Carrossel de shows passa
+□ Links do Sympla abrem
+□ Modal de contato abre
+□ Formulário envia (teste!)
+□ Site funciona no celular
+□ HTTPS ativo (cadeado verde)
+□ Domínio customizado funciona
+
+
+📧 NOTIFICAÇÕES:
+───────────────────────────────────────────────────────────
+□ Fui em Forms no painel Netlify
+□ Configurei email para receber formulários
+□ Testei enviar um formulário de teste
+
+
+═══════════════════════════════════════════════════════════
+
+🎯 RESUMO DOS 3 COMANDOS PRINCIPAIS:
+
+1️⃣ cd caminho/da/pasta        (navegar até a pasta)
+2️⃣ npm install                 (instalar dependências)
+3️⃣ npm run build              (fazer build)
+
+Depois: arrastar pasta 'dist' para netlify.com/drop
+
+═══════════════════════════════════════════════════════════
+
+📞 PROBLEMAS? 
+
+Veja os arquivos:
+→ INSTRUCOES-MANUAIS.txt (guia completo)
+→ COPIE-E-COLE.txt (comandos prontos)
+→ COMO-FAZER-DEPLOY.txt (passo a passo visual)
+
+═══════════════════════════════════════════════════════════
