@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { ContactModal } from "./components/ContactModal";
 import { ShowsGallery } from "./components/ShowsGallery";
-import bgImage from "figma:asset/f161e89d807c38675f6a65eb4b57b05f764de3bf.png";
-import logo from "figma:asset/b5bb8425f67c1e1c2baf784d5514247182fd324c.png";
+import bgImage from "./backdropminhoca.png";
+import logo from "./logominhoca.png";
 
 export default function App() {
   const [isContactOpen, setIsContactOpen] = useState(false);
