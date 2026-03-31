@@ -1,4 +1,4 @@
-import { Calendar, MapPin, Ticket } from "lucide-react";
+import { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -99,32 +99,34 @@ const mockShows: Show[] = [
 ];
 
 export function ShowsGallery() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    pauseOnHover: true,
-    arrows: true,
-    responsive: [
-      {
-        breakpoint: 1280,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      
-    ],
-  };
+  const [slidesToShow, setSlidesToShow] = useState(3);
 
-  return (
-    <div className="relative z-10 py-12 px-4 md:px-8 bg-black/40 backdrop-blur-sm">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-white font-bold text-3xl md:text-4xl text-center mb-8">
+React.useEffect(() => {
+  const handleResize = () => {
+    if (window.innerWidth < 768) {
+      setSlidesToShow(1);
+    } else if (window.innerWidth < 1024) {
+      setSlidesToShow(2);
+    } else {
+      setSlidesToShow(3);
+    }
+  };
+  handleResize();
+  window.addEventListener("resize", handleResize);
+  return () => window.removeEventListener("resize", handleResize);
+}, []);
+
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: slidesToShow,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  pauseOnHover: true,
+  arrows: true,
+};
           Próximos Shows
         </h2>
         
