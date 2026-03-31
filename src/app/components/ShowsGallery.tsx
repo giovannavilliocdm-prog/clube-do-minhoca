@@ -111,7 +111,7 @@ export function ShowsGallery() {
     arrows: true,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1280,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
