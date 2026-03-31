@@ -103,7 +103,7 @@ export function ShowsGallery() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
@@ -111,7 +111,7 @@ export function ShowsGallery() {
     arrows: true,
     responsive: [
       {
-        breakpoint: 1280,
+        breakpoint: 1440,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
