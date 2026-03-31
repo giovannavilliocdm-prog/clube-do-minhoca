@@ -3,14 +3,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import mauMeirellesImage from "figma:asset/e3d440cda6a2889fb3f26b143ec23fe36b1f6127.png";
-import cincaoImage from "figma:asset/ff70dbc0fbcb3b2c08bf56ff0d4d3662d5a3c4cf.png";
-import danielDuncanImage from "figma:asset/f1c30daba96e58184f9912e756c8e435accc8143.png";
-import patrickMaiaImage from "figma:asset/ca73885a3f6cc4c0bf98b81a8ea1aebc050fd42b.png";
-import elencaoImage from "figma:asset/0f57547f554516f48770309729d3f659273e81ba.png";
-import guiPretoImage from "figma:asset/3853e740c3035d21573687038d426fe9693113cc.png";
-import italoSenaImage from "figma:asset/26cbf79cc60196a14ea8b87c353a2cdec2e8e4a0.png";
-import carolZoccoliImage from "figma:asset/b7937785db4ad0fb3eb55272062ad07f5e6493b2.png";
+import mauMeirellesImage from "./04-02_MauMeirelles_Feed (1).png";
+import cincaoImage from "./04-03_Cincao-DecoMachado_Feed.png";
+import danielDuncanImage from "./04-04_DanielDuncan_Feed (1).png";
+import patrickMaiaImage from "./04-09_PatrickMaia_Feed.png";
+import elencaoImage from "./04-16_Elencao_Buente-Eve-Gabao_Feed.png";
+import carolZoccoliImage from "./04-18_CarolZoccoli_Feed.png";
+import guiPretoImage from "./04-18_GuiPreto_Feed.png";
+import italoSenaImage from "./04-23_ItaloSena_Sympla.png";
 
 interface Show {
   id: string;
