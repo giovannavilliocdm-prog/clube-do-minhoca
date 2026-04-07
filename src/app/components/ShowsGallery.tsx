@@ -127,9 +127,7 @@ const settings = {
   pauseOnHover: true,
   arrows: true,
 };
-          Próximos Shows
-        </h2>
-        
+<h2>Próximos Shows</h2>        
         <Slider {...settings} className="shows-carousel">
           {mockShows.map((show) => (
             <div key={show.id} className="px-3">
